@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow: hidden;
+}
+main{
+    background-image: url('../assets/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+#logo{
+    padding: 2vw;
+}
+div{
+    margin-top: 25vh;
+    text-align: center;
+}
+div h2{
+    font-size: 4.5vw;
+    margin: 10vh;
+}
+div p{
+    font-size: 2vw;
+}
+div button{
+    font-size: 1.5vw;
+    margin: 10vh;
+    height: 6vw;
+    width: 12vw;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(56, 20, 80, 0.582);
+}
